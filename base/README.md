@@ -6,7 +6,7 @@ A Symfony application base image.
 
 ## Makefile
 
-Tested with GNU Make 3.81. `VERSION` environment variable defaults to `latest`.
+Tested with GNU Make 3.81. `VERSION` environment variable defaults to `latest-base`.
 
 ### Build
 
