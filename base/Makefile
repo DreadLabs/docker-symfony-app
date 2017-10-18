@@ -1,17 +1,17 @@
 #
-# Makefile for docker-symfony-app-base
+# Makefile for docker-symfony-app:*-base
 #
 # @see http://www.itnotes.de/docker/development/tools/2014/08/31/speed-up-your-docker-workflow-with-a-makefile/
 # @see http://stackoverflow.com/a/10858332
 #
 
 NS = dreadlabs
-VERSION ?= latest
+VERSION ?= latest-base
 FILE = Dockerfile
 CONTEXT = .
 
-REPO = symfony-app-base
-NAME = symfony-app-base
+REPO = symfony-app
+NAME = symfony-app
 INSTANCE = default
 
 .PHONY: build shell release versions start stop rm

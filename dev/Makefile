@@ -6,12 +6,12 @@
 #
 
 NS = dreadlabs
-VERSION ?= latest
+VERSION ?= latest-dev
 FILE = Dockerfile
 CONTEXT = .
 
-REPO = symfony-app-dev
-NAME = symfony-app-dev
+REPO = symfony-app
+NAME = symfony-app
 INSTANCE = default
 
 .PHONY: build shell release versions start stop rm
